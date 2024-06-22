@@ -1,0 +1,14 @@
+name: A
+versions:
+  1.0.0:
+    dependencies:
+      - B@2.0.0
+      - C@2.0.0
+    download: metadata/A/A@1.0.0_src.txt
+  1.1.0:
+    dependencies:
+      - D@1.0.0
+    download: metadata/A/A@1.1.0_src.txt
+  2.0.0:
+    dependencies:
+    download: metadata/A/A@2.0.0_src.txt
